@@ -1,0 +1,274 @@
+body {
+	background: url(../img/bd-bg.png) repeat-x;
+	
+}
+
+.w {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.header {
+	/*logo上下的内边距*/
+	padding: 37px 0 46px 0;
+	/*background-color: #bdf;*/
+}
+
+.logo {
+	/**/
+	margin-left: 15px;
+}
+
+.nav {
+	float: right;
+	padding-top: 22px;
+}
+
+.nav li {
+	float: left;
+	padding: 0 10px 8px 10px;
+	border-left: #d6d6d6 1px dotted;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #666;
+	font: bold 14px Georgia;
+}
+
+.nav a:hover {
+	text-decoration: underline;
+	color: #9f9c9c;
+}
+
+.nav p {
+	color: #bcbcbc;
+	font: 11px Tahoma;
+}
+
+.badder {
+	height: 356px;
+	background: url(../img/badder/badderbg.png) no-repeat bottom center;
+	position: relative;
+}
+
+.pointDiv {
+	position: absolute;
+	top: 314px;
+	left: 15px;
+}
+
+.pointDiv a {
+	float: left;
+	background-image: url(../img/badder/pointer.png);
+	width: 17px;
+	height: 17px;
+	margin-left: 4px;
+}
+
+.pointDiv .active,
+.pointDiv a:hover {
+	background-image: url(../img/badder/pointer_selected.png);
+}
+
+.pointDiv a:hover {
+	background-image: url(../img/badder/pointer_selected.png);
+}
+
+.content {
+	/*background-color: red;*/
+	background: url(../img/divideline.png) no-repeat bottom;
+	margin-top: 6px;
+	
+	
+}
+
+.content h1 {
+	font: bold 24px Georgia;
+	text-align: center;
+	padding: 6px 0 20px 0;
+	background: url(../img/line.png) no-repeat bottom center;
+	margin-bottom:40px ;
+}
+.clearfix:before,
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+
+.pl,.cs,.uc,.sc,.contact,.nu{
+	float: left;
+	/*background-color: yellow;*/
+	width: 300px;
+	
+}
+.pic{
+	width: 299px;
+	height: 202px;
+	/*background-color: blue;*/
+	margin: 15px 0;
+	background: url(../img/contentbg.png) no-repeat center;	
+}
+.content img{
+	margin: 11px 7px;
+}
+
+.content a{
+	text-decoration: none;
+	font: 21px Georgia;
+	color: #11719e;
+}
+.content p{
+	font: 12px Myriad Pro;
+	color: #8c8c8c;
+}
+
+.cs,.contact{
+	margin: 0 20px;
+}
+.info{
+	height: 86px;
+	/*background-color: black;*/
+}
+.info p{
+	color: #3e3e3e;
+	font: 13px Myriad Pro;
+}
+.dire{
+	width: 153px;
+	height: 20px;
+	padding: 10px 0 0 12px;
+	margin-bottom:35px ;
+	background: url(../img/direction.jpg);
+	
+}
+.dire p{
+	font: 12px Myriad Pro;
+	color: #016999;
+}
+.method{
+	/*background-color: #016999;*/
+	margin-top: 42px;
+}
+.sc h2,.contact h2,.nu h2{
+	color: #444;
+	font: 18px Georgia;
+	padding-bottom:10px ;
+	border-bottom: #d3d3d3 1px dashed;
+	margin-bottom: 14px;
+}
+.sc p{
+	color: #444;
+	font: 12px Myriad Pro;
+}
+.linked{
+	margin-top: 6px;
+}
+.linked img{
+	float: left;
+}
+div .news{
+	padding-top: 80px;
+}
+.news h2{
+	font:bold 18px  Gill Sans MT;
+}
+.form1{
+	width: 300px;
+	height: 32px;
+}
+.sc,.contact,.nu{
+	height: 365px;
+	/*background-color: yellow;*/
+}
+
+.contact .txt,.news .txt{
+	margin-bottom: 16px;
+	padding: 0 10px;
+	width: 276px;
+	height: 33px;
+	background: url(../img/contact/txt.png) no-repeat;
+	border: none;
+}
+.news .txt{
+	margin-top: 6px;
+	margin-bottom: 14px;
+}
+.contact .textare{
+	margin-bottom: 12px;
+	padding: 0 10px;
+	width: 276px;
+	height: 134px;
+	background: url(../img/contact/textarea.png) no-repeat;
+	resize: none;
+	border: none;
+}
+.contact .btn,.news .btn,.nu .btn{
+	color: white;
+	font: 13px Georgia;
+	text-align: left;
+	text-indent: 1em;
+	width: 163px;
+	height: 32px;
+	background: url(../img/contact/btn.png) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+.nu p{
+	font: 12px Myriad Pro;
+	color: #444;
+	height: 58px;
+	background: url(../img/contact/nubg.png) no-repeat left top;
+/*	background-color: red;*/
+	border-bottom:  #d3d3d3 1px dashed;
+	padding-bottom: 9px;
+	margin-bottom: 14px;
+}
+
+.nu img{
+	float:left;
+	margin: 6px 10px 0 5px;
+
+}
+.no-margin{
+	margin-bottom: 0;
+}
+.footerbg{
+	background: url(../img/contact/footer.png) repeat-x bottom;
+	height: 182px;
+	position: relative;
+}
+.footerbg .part1{
+	position: absolute;
+	left: 280px;
+	top: 27px;
+	color: #999;
+	font: 11px Myriad Pro;
+	float: left;
+	
+}
+.footerbg a{
+	text-decoration: none;
+	color: #999;
+	font: 11px Myriad Pro;
+	
+}
+
+.footerbg .part2 {
+	position: absolute;
+	left:920px;
+	top: 27px;
+	color: #999;
+	font: 11px Myriad Pro;
+	
+}
+
+.footerbg p{
+	text-align: left;
+	display: block;
+	margin-bottom: 8px;
+}
